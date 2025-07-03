@@ -8,7 +8,6 @@
 
 body {
   font-family: Lato, sans-serif;
-  padding: 10px;
 }
 
 .blog {
@@ -31,8 +30,9 @@ body {
 .blog-main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  padding-top: 15px;
+  padding-bottom: 15px;
   gap: 20px;
-  padding: 10px 0px;
 }
 
 .blog-main .card {
