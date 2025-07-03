@@ -67,17 +67,6 @@ button:hover {
   color: #fff;
 }
 
-li {
-  padding: 10px;
-  list-style-type: none;
-}
-
-a {
-  color: #fff;
-  text-decoration: none;
-  margin: 0px 5px;
-}
-
 footer {
   background-color: rgb(44, 95, 75);
   display: flex;
@@ -86,5 +75,19 @@ footer {
   margin-top: 20px;
   padding: 20px 30px;
   color: #fff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 10px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0px 5px;
 }
 
