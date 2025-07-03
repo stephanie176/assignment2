@@ -68,6 +68,8 @@ body {
   background-color: rgb(227, 225, 225);
   border-radius: 5px;  
   padding: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .categories h2 {
