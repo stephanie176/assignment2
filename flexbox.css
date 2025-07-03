@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  padding: 20px;
+}
+
+input {
+  display: flex;
+  flex-direction: row;
+  padding: 12px;
+  border: 1px solid ;
+  border-radius: 12px;
+}
+
+input:focus {
+  outline: none;
+}
+
+input:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  height: 280px;
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+button {
+  background-color: rgb(151, 150, 150);
+  width: fit-content;
+  padding: 10px;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+button:hover {
+  opacity: 0.9;
+  background-color: rgb(79, 76, 76);
+  color: #fff;
+}

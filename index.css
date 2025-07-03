@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+.box-1 {
+  padding: 20px;
+  margin: 20px;
+  border: 8px solid indigo;
+  max-width: 260px;
+  background-color: rgb(113, 77, 139);
+  outline: 20px solid rgb(112, 53, 154);
+}
+
+.box-1 h2 {
+  background-color: rgb(138, 121, 198);
+}
+
+.box-2 {
+  padding: 20px 30px;
+  margin: 30px;
+  border: 5px solid gray;
+  max-width: 300px;
+  background-color: rgb(56, 51, 51);
+  outline: 30px solid rgb(74, 72, 72);
+}
+
+.box-2 h2 {
+  background-color: rgb(164, 163, 168);
+}
+
+.box-3 {
+  padding: 10px 25px;
+  margin: 40px;
+  border: 10px solid rgba(133, 42, 42, 0.795);
+  max-width: 180px;
+  background-color: rgba(158, 69, 69, 0.886);
+  outline: 40px solid rgb(129, 15, 15);
+}
+
+.box-3 h2 {
+  background-color: rgb(201, 113, 86);
+}
+
+.box-4 {
+  padding: 20px;
+  margin: 15px;
+  border: 15px solid powderblue;
+  max-width: 500px;
+  background-color: rgb(34, 67, 137);
+  outline: 15px solid rgb(35, 47, 135);
+  box-sizing: content-box;
+}
+
+.box-4 h2 {
+  background-color: rgb(96, 134, 193);
+}
+
+.box-5 {
+  padding: 20px;
+  margin: 15px;
+  border: 15px solid rgb(108, 148, 131);
+  max-width: 500px;
+  background-color: rgb(67, 116, 94);
+  outline: 15px solid rgb(57, 83, 74);
+}
+
+.box-5 h2 {
+  background-color: rgb(108, 209, 165);
+}
