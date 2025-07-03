@@ -8,13 +8,12 @@
 
 body {
   font-family: Lato, sans-serif;
+  padding: 10px;
 }
 
 .blog {
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
-  gap: 20px;
-  padding: 20px;
 }
 
 .author-info {
@@ -32,8 +31,8 @@ body {
 .blog-main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-  gap: 25px;
-  padding: 10px;
+  gap: 20px;
+  padding: 10px 0px;
 }
 
 .blog-main .card {
@@ -41,7 +40,7 @@ body {
   gap: 10px;
   padding: 10px;
   margin: auto;
-  width: 420px;
+  width: 390px;
   height: 250px;
   background-color: #fff;
   border-radius: 10px;
@@ -68,7 +67,7 @@ body {
 .categories {
   background-color: rgb(227, 225, 225);
   border-radius: 5px;  
-  padding: 5px;
+  padding: 10px;
 }
 
 .categories h2 {
@@ -91,12 +90,6 @@ nav a {
   font-weight: bold;
 }
 
-footer a {
-  color: #fff;
-  text-decoration: none;
-  margin: 0px 5px;
-}
-
 footer {
   background-color: rgb(44, 95, 75);
   display: flex;
@@ -111,15 +104,21 @@ footer li {
   padding: 10px;
 }
 
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0px 5px;
+}
 
 @media(max-width: 888px) {
   .blog {
     display: block;
     grid-template-columns: 1fr;
   }
-
-  .blog-main {
-    gap: 25px;
+  
+  .blog-main .card {
+    margin: auto;
+    transform: none;
   }
 
   .categories {
