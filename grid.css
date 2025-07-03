@@ -37,7 +37,7 @@ body {
 
 .blog-main .card {
   display: flex;
-  gap: 10px;
+  gap: 7px;
   padding: 10px;
   margin: auto;
   width: 390px;
@@ -61,7 +61,7 @@ body {
 }
 
 .text {
-  padding: 10px;
+  padding: 10px 5px;
 }
 
 .categories {
