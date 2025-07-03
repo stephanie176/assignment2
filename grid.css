@@ -2,13 +2,19 @@
 
 * {
   box-sizing: border-box;
-  padding: 5px;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: Lato, sans-serif;
 }
 
 .blog {
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
   gap: 20px;
+  padding: 20px;
 }
 
 .author-info {
@@ -27,11 +33,13 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
   gap: 25px;
+  padding: 10px;
 }
 
 .blog-main .card {
   display: flex;
-  padding: 5px;
+  gap: 10px;
+  padding: 10px;
   margin: auto;
   width: 420px;
   height: 250px;
@@ -53,6 +61,10 @@
   opacity: 0.92;
 }
 
+.text {
+  padding: 10px;
+}
+
 .categories {
   background-color: rgb(227, 225, 225);
   border-radius: 5px;  
@@ -61,6 +73,7 @@
 
 .categories h2 {
   margin-bottom: 0px;
+  margin-top: 10px;
 }
 
 .categories nav {
@@ -69,6 +82,7 @@
 
 nav li {
   list-style: none;
+  padding: 5px;
 }
 
 nav a {
@@ -76,6 +90,27 @@ nav a {
   text-decoration: none;
   font-weight: bold;
 }
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0px 5px;
+}
+
+footer {
+  background-color: rgb(44, 95, 75);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+  padding: 20px 30px;
+  color: #fff;
+}
+
+footer li {
+  padding: 10px;
+}
+
 
 @media(max-width: 888px) {
   .blog {

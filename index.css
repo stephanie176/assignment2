@@ -1,5 +1,11 @@
 * {
   box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.boxes {
+  padding: 20px;
 }
 
 .box-1 {
@@ -66,4 +72,29 @@
 
 .box-5 h2 {
   background-color: rgb(108, 209, 165);
+}
+
+ul {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+li {
+  padding: 10px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0px 5px;
+}
+
+footer {
+  background-color: rgb(44, 95, 75);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+  padding: 20px 30px;
+  color: #fff;
 }

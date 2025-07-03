@@ -2,11 +2,12 @@
 
 * {
   box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
 }
 
 body {
-  padding: 10px;
-  font-family: Lato;
+  font-family: Lato, sans-serif;
 }
 
 .products {
@@ -63,6 +64,26 @@ button {
 
 button:hover {
   background-color: rgb(19, 92, 92);
+  color: #fff;
+}
+
+li {
+  padding: 10px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0px 5px;
+}
+
+footer {
+  background-color: rgb(44, 95, 75);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+  padding: 20px 30px;
   color: #fff;
 }
 
